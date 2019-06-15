@@ -37,10 +37,7 @@ class Player
 				var pageObj = document.getElementById(id);
 				pageObj.style.backgroundColor = deck_color[i];
 				this.deck_color = deck_color[i];
-				if(deck_color[i] === "#fff3b2")
-				{
-					pageObj.style.color = "black";
-				}
+
 			}
 		}
 	}
@@ -88,6 +85,7 @@ function addPlayer(column_id, player_object)
 
 $(document).ready(function()
 {
+	document.getElementById('playerNameInput').focus;
 	$('#addPlayerButton').click(function (e) { 
 		var playerNameInput = $('#playerNameInput').val();
 		var tauntInput = $('#playerTauntInput').val();
@@ -101,6 +99,9 @@ $(document).ready(function()
 		playerNameInput = $('#playerNameInput').val("");
 		tauntInput = $('#playerTauntInput').val("");
 		colorInput = $('#colorInput').val("");
+
+		// Remove intro text.
+		$("#intro").remove();
 	});
 });
 

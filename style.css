@@ -85,3 +85,9 @@ input {
   margin-top: 25px;
   background-color: #a52b5a;
 }
+
+#intro{
+  margin-top: 20%;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+}
