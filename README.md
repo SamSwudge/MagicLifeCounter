@@ -15,3 +15,6 @@ Supported colors:
 - Default - default color if none is entered, kind of pinkish.
 
 Simply open the index.html in any browser and you are away.
+
+Its very barebones, you have to manually add the text into the fields
+currently, but looking at getting that updated with buttons.
