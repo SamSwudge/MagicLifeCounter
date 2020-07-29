@@ -29,6 +29,7 @@ class Player
 
 	setColor(color, id)
 	{
+		color = color.toLowerCase(); // Set colors to lower case for parsing.
 		for(var i in deck_color)
 		{
 			if(i === color)
